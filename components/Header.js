@@ -14,12 +14,11 @@ const Header = () => {
         <header className="fixed top-0 left-0 right-0 z-20 bg-white text-black shadow-md transition-all duration-300 ease-in-out">
             <nav className="container mx-auto px-4 lg:px-8 py-4 flex justify-around items-center">
                 {/* Logo */}
-                <Link href="/" scroll={true}>
+                <Link className='relative w-64 h-16' href="/" scroll={true}>
                     <Image
                         src="/c.png"
                         alt="Logo"
-                        width={128}
-                        height={128}
+                        fill
                         className="w-28 sm:w-32 md:w-36 lg:w-40" // Responsive width
                     />
                 </Link>
