@@ -14,15 +14,22 @@ const Header = () => {
         <header className="fixed top-0 left-0 right-0 z-20 bg-white text-black shadow-md transition-all duration-300 ease-in-out">
             <nav className="container mx-auto px-4 lg:px-8 py-4 flex justify-around items-center">
                 {/* Logo */}
-                <Link className='relative w-64 h-16' href="/" scroll={true}>
+                <Link className='relative w-36 h-14 lg:w-64 lg:h-34   ' href="/" scroll={true}>
                     <Image
                         src="/c.png"
                         alt="Logo"
                         fill
-                        className="w-28 sm:w-32 md:w-36 lg:w-40" // Responsive width
+                       
                     />
                 </Link>
-
+                <Link className='relative w-12 h-14 lg:w-16 lg:h-20' href="/" scroll={true}>
+                    <Image
+                        src="/fav.png"
+                        alt="Logo"
+                        fill
+                        
+                    />
+                </Link>
                 {/* Mobile Menu Button */}
                 <button
                     className="lg:hidden bg-green-500 text-white p-2 rounded-md hover:bg-green-600 transition-colors duration-300"
@@ -50,7 +57,7 @@ const Header = () => {
                     className={`${menuOpen
                             ? 'flex flex-col absolute top-full left-0 right-0 bg-white shadow-lg p-4 space-y-4 lg:hidden'
                             : 'hidden'
-                        } lg:flex lg:flex-row lg:space-x-6 lg:items-center text-xl font-bold`}
+                        } lg:flex lg:flex-row lg:space-x-6 lg:items-center text-xl w-64 font-bold`}
                     id="menu"
                 >
                     <li className="relative text-green-500 hover:text-green-700 transition-colors duration-300 group">
