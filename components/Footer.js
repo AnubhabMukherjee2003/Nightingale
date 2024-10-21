@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
             © 2024 Nightingale —
-            <Link href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" passHref>
+            <Link href="https://anubhabmukherjee2003.github.io/portfolio/" className="text-gray-600 ml-1" passHref>
               @Anubhab
             </Link>
           </p>
