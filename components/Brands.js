@@ -26,7 +26,7 @@ const Brands = () => {
       {/* Title */}
       <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6 md:mb-12">
         <h2 className="text-xl font-semibold md:text-2xl md:leading-tight text-gray-800">
-          Distributer of
+        Distributor of
         </h2>
       </div>
       {/* End Title */}
