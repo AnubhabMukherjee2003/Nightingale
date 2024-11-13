@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
 import { handleIt } from '@/action/form';
 import Image from 'next/image';
-import contact from "../public/con.png"; // Corrected import statement
+import contact from "../public/con2.jpg"; // Corrected import statement
 const Contact = () => {
   const [captchaToken, setCaptchaToken] = useState(null);
   const handleSubmit = async (e) => {

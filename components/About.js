@@ -34,7 +34,7 @@ const About = () => {
             Who We Are
           </h2>
           <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 xl:pr-32 lg:text-lg">
-            Nightingale is a Kolkata-based company with over three decades of experience in the scientific and research
+           <strong> Nightingale</strong> is a Kolkata-based company with over three decades of experience in the scientific and research
             equipment industry. We are committed to delivering quality products and services that advance scientific
             exploration and innovation.
           </p>

@@ -38,7 +38,7 @@ const Faq = () => {
             {[
               {
                 question: "What types of products does Nightingale offer?",
-                answer: "Nightingale provides a wide range of scientific and laboratory equipment, including chromatography systems, water purification units, electrophoresis systems, spectrophotometers, molecular biology tools, and more. We also supply consumables such as reagents, plasticware, and glassware."
+                answer: "We provide a wide range of scientific and laboratory equipment, including chromatography systems, water purification units, electrophoresis systems, spectrophotometers, molecular biology tools, and more. We also supply consumables such as reagents, plasticware, and glassware."
               },
               {
                 question: "Do you offer any research services?",
@@ -46,7 +46,7 @@ const Faq = () => {
               },
               {
                 question: "Which brands are you authorized distributors for?",
-                answer: "Nightingale is proud to be an authorized distributor for leading global brands like Becton Dickinson, GENAXY Scientific, Qiagen, ABclonal, and Bio-Rad. We also promote Make in India brands, supporting local innovation and entrepreneurship."
+                answer: "We are proud to be an authorized distributor for leading global brands like Becton Dickinson, GENAXY Scientific, Qiagen, ABclonal, and Bio-Rad. We also promote Make in India brands, supporting local innovation and entrepreneurship."
               },
               {
                 question: "Do you offer equipment maintenance and support?",

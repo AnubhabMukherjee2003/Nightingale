@@ -11,6 +11,11 @@ import wenser from '../public/wenser.png';
 import r from '../public/r.png';
 import remi from '../public/remi.jpeg';
 import abclonal from '../public/abclonal.png';
+import dlab from '../public/dlab.jpg';
+import cst from '../public/cst.jpg';
+import biolab from '../public/biolab.png';
+import biorad from '../public/biorad.jpg';
+import sartorius from '../public/sartorius.png';
 
 const Brands = () => {
   useEffect(() => {
@@ -26,7 +31,7 @@ const Brands = () => {
       {/* Title */}
       <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6 md:mb-12">
         <h2 className="text-xl font-semibold md:text-2xl md:leading-tight text-gray-800">
-        Distributor of
+        Channel partner
         </h2>
       </div>
       {/* End Title */}
@@ -43,7 +48,12 @@ const Brands = () => {
           { src: wenser, alt: "Wenser" },
           { src: r, alt: "Riviera" },
           { src: remi, alt: "Remi" },
-          { src: abclonal, alt: "abclonal" }
+          { src: abclonal, alt: "abclonal" },
+          { src: dlab, alt: "DLAB" },
+          { src: cst, alt: "CST" },
+          { src: biolab, alt: "Biolab" },
+          { src: biorad, alt: "Biorad" },
+          { src: sartorius, alt: "Sartorius" }
         ].map((brand, index) => (
           <div key={index} className="p-4 md:p-7 bg-green-100 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
             <Image src={brand.src} alt={brand.alt} className="w-full h-full  transition-opacity duration-300 ease-in-out hover:opacity-80 object-cover" />
