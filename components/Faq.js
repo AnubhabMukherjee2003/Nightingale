@@ -46,7 +46,7 @@ const Faq = () => {
               },
               {
                 question: "Which brands are you authorized distributors for?",
-                answer: "We are proud to be an authorized distributor for leading global brands like Becton Dickinson, GENAXY Scientific, Qiagen, ABclonal, and Bio-Rad. We also promote Make in India brands, supporting local innovation and entrepreneurship."
+                answer: `We are proud to be an authorized distributor for leading global brands like <strong>Becton Dickinson</strong>, <strong>GENAXY Scientific</strong>, and <strong>ABclonal</strong>. We also promote Make in India brands, supporting local innovation and entrepreneurship.`
               },
               {
                 question: "Do you offer equipment maintenance and support?",
@@ -65,7 +65,7 @@ const Faq = () => {
                   </svg>
                 </h2>
                 <div ref={(el) => (tabs.current[index] = el)} style={handleToggle(index)} className="border-l-2 border-green-600 overflow-hidden max-h-0 duration-500 transition-all">
-                  <p className="p-3 text-gray-900">{item.answer}</p>
+                  <p className="p-3 text-gray-900" dangerouslySetInnerHTML={{ __html: item.answer }}></p>
                 </div>
               </li>
             ))}
