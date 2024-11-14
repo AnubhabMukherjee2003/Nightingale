@@ -22,9 +22,9 @@ const Header = () => {
                        
                     />
                 </Link>
-                <Link className='relative w-12 h-14 lg:w-16 lg:h-20' href="/" scroll={true}>
+                <Link className='relative w-[100px] h-[90px] ' href="/" scroll={true}>
                     <Image
-                        src="/fav.png"
+                        src="/n.png"
                         alt="Logo"
                         fill
                         
