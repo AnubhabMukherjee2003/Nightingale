@@ -14,20 +14,22 @@ const Header = () => {
         <header className="fixed top-0 left-0 right-0 z-20 bg-white text-black shadow-md transition-all duration-300 ease-in-out">
             <nav className="container mx-auto px-4 lg:px-8 py-4 flex justify-around items-center">
                 {/* Logo */}
-                <Link className='relative w-36 h-14 lg:w-64 lg:h-34   ' href="/" scroll={true}>
-                    <Image
-                        src="/c.png"
-                        alt="Logo"
-                        fill
-                       
-                    />
-                </Link>
+                
                 <Link className='relative w-[100px] h-[90px] ' href="/" scroll={true}>
                     <Image
                         src="/n.png"
                         alt="Logo"
                         fill
                         
+                    />
+                </Link>
+
+                <Link className='relative w-36 h-14 lg:w-64 lg:h-34   ' href="/" scroll={true}>
+                    <Image
+                        src="/c.png"
+                        alt="Logo"
+                        fill
+                       
                     />
                 </Link>
                 {/* Mobile Menu Button */}
